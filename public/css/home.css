@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/img/camp1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.cover-container {
+    max-width: 60vw;
+}
+
+.nav-link {
+    margin-left: 1rem;
+    padding: 0.25rem 0;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    border-bottom: 0.17rem solid transparent;
+}
+
+.nav-link.active {
+    color: white;
+    border-bottom-color: white;
+}
+
+.nav-link:hover {
+    color: white;
+    border-bottom-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-secondary {
+    color: #333;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(232,238,238,1)!important;
+}
